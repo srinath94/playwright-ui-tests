@@ -27,11 +27,14 @@ The automation scenario consists of the following steps:
 - Add the selected product to the shopping basket
 - Verify that the Basket Notification Popup shows correct product information
 
+## 🚀 Technologies Used
+- Playwright
+- TypeScript
+- Page Object Model (POM)
+
 ## 📁 Project Structure
 ```
 THOMANN-QA-TASK
-├── .github/workflows/
-│   └── playwright.yml              # CI workflow file
 ├── fixtures/
 │   └── Fixtures.ts                 # Test fixtures for shared setup
 ├── pages/                          # Page Object Models
@@ -65,6 +68,8 @@ npx playwright test --headed
 # Specific browser
 npx playwright test --project=chromium     
 ```
+- Test results screenshot
+![alt text](image.png)
 
 ## 📊 View Report
 - The HTML report is opened automatically after the test run. This behavior is set in open property in the Playwright config.
