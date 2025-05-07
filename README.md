@@ -52,8 +52,8 @@ THOMANN-QA-TASK
 
 ## 🛠️ Installation
 ```
-git clone https://github.com/username/THOMANN-QA-TASK.git
-cd THOMANN-QA-TASK
+git clone https://github.com/username/playwright-ui-tests.git
+cd playwright-ui-tests
 npm ci
 ```
 
